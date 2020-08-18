@@ -1,0 +1,54 @@
+div.navbar-collapse ul.navbar-nav  {
+    text-align: center;
+    border: 1px solid black;
+}
+
+div.navbar-collapse ul.navbar-nav a {
+    border-bottom: 1px solid black;
+}
+
+div.navbar-collapse ul.navbar-nav a#no-border {
+    border-bottom: 0px;
+}
+
+.container-fluid {
+    border: 1px solid rgb(0, 0, 0);
+    /* margin: 5px; */
+    
+}
+
+
+
+.row .content {
+    /* border: 1px solid green; */
+    /* margin: 10px; */
+    background-color: rgb(185, 184, 184);
+    color: rgb(0, 0, 0);
+    margin: 20px auto 10px auto;
+    padding: 20px;
+}
+
+
+
+
+
+/* Large Device */
+@media (min-width: 1200px) {
+
+}
+
+/* Medium Device */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+/* Small Device */
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+/* Extra Small */
+@media (max-width: 767px) {
+    .col-xs-12 {
+        width: 80%;
+        margin: auto;
+    }
+}
